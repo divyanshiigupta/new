@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    docker { image 'ubuntu/apache2' }
+    docker { image 'ubuntu' }
   }
   stages {
     stage('Build') {
